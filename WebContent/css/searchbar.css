@@ -1,0 +1,38 @@
+#search		{
+  width:300px;
+    background-color:rgb(0,0,0,0);
+  -webkit-transition:width 0.3s ease-in-out;
+}
+#search:focus	{
+  width:500px;
+  background-color:white;
+  -webkit-transition:width 0.5s ease-in-out;
+}
+.button {
+  display:inline-block;
+  border-radius: 4px;
+  border: none;
+  background-color:#4187c5;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 0.5%;
+  transition: all 0.5s;
+  cursor: pointer;
+  width:auto;
+  right:3% ; 
+  padding-top: 1%;
+  position: absolute;
+}
+#cart_menu:focus {
+	display:block;
+	}
+#user_menu:focus {
+	display:block;
+	}
+.banner{
+	border:thin;
+	border-color:black;
+	height:500px;
+	width:100%;
+}

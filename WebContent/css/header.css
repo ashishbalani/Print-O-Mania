@@ -1,0 +1,85 @@
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+.dropbtn {
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20%;
+    background-color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border-bottom-color:black;
+    border:thin;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    border-top-style: groove;
+    border-top-color: #4187c5
+}
+@media (min-width:768px){
+.navbar-centered .navbar-nav {
+        float: none;
+        text-align: center;
+    }
+    .navbar-centered .navbar-nav > li {
+        float: none;
+        text-align: center;
+        
+    }
+    .navbar-centered .nav > li {
+        display: inline;
+    }
+    .navbar-centered .nav > li > button {
+        display: inline-block;
+    }
+}

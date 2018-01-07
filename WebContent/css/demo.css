@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+   
+
+    color: black;
+    font-family: "Raleway",Arial,sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    background-color: #fff;
+    overflow:visible;
+}
+
+.p{
+	width:auto; 
+	top:6.4%; 
+	right:5.2% ; 
+	position:fixed; 
+	font-size:18px;
+	color: #00BFFF;
+}
+
+
+.container {
+	width:470px;
+	margin:0 auto;
+}
+
+
+section {
+    margin:0 auto;
+    height: 442px;
+    margin:0 auto;
+    width: 470px;
+	margin-bottom:40px;
+}
+
+.democolors {
+    margin-bottom: 20px;
+    overflow: auto;
+    width: 470px;
+}
+.democolors a {
+    display: inline-block;
+    float: left;
+    height: 20px;
+    margin: 0 6px 0 0;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 20px;
+}
+.democolors a.blue {
+    background: #6e98e3 none repeat scroll 0 0;
+}
+
+.cartcss{
+	right:10%;
+	color:white;	
+}
+
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: #00BFFF /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 20%; /* Could be more or less, depending on screen size */
+}
+
+.butn {
+	position:absolute;
+	z-index:0;
+    bottom:10px;
+    right:10px;
+    position: absolute;
+ 	top: 10;
+ 	bottom: 0;
+  	left: 40px;
+  	right: 0;
+  	text-align: center;
+}
+.butn:before {
+  content: ' ';
+  display: block;
+  /* adjust 'height' to position overlay content vertically */
+  height: 50%;
+}
+
+#imgbtn{
+	position:relative;
+    display:inline-block;
+    text-align:center;
+    /* border:thin;
+    border-color: buttonshadow; */
+}
+.main_page{
+	 min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto - 2%; /* the bottom margin is the negative value of the footer's height */
+}
+.push {
+    height: 2%; /* .push must be the same height as .footer */
+}
+
+.footer1{
+	color: white;
+    background-color: black;
+    clear: left;
+    height: 2%;
+    text-align: center;
+}
+
+.html{
+	margin-left:10%;
+	margin-right:10%;
+	border:thin ;
+	box-shadow: 12px 0 15px -4px #888888, -12px 0 8px -4px #888888;
+}
+
+.content1 {
+  flex: 1;
+  padding: 10px;
+}
+
+.footer12{
+	color: white;
+    background-color: black;
+    clear: left;
+    height: 1%;
+    
+    padding: 10px;
+}
